@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.2.0">
+   <checkout_onepage_index>
+	   <reference name="content">
+			 <reference name="checkout.onepage">
+					<block type="checkout/onepage_billing" name="checkout.onepage.billing" as="billing" template="addressfinder/billing.phtml"/>
+					<block type="checkout/onepage_shipping" name="checkout.onepage.shipping" as="shipping" template="addressfinder/shipping.phtml"/>
+			 </reference>
+	   </reference>
+	</checkout_onepage_index>
+</layout> 

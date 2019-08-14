@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to helpdesk@lexel.co.uk so we can send you a copy immediately.
+ *
+ * @category   Lexel
+ * @package    Lexel_UkAddressFinder
+ * @copyright  Copyright (c) 2013 Lexel Software Ltd (http://www.lexel.co.uk)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <sections>
+        <addressfinder translate="label" module="addressfinder">
+            <label>Lexel Address Finder</label>
+            <tab>sales</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>306</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <license translate="label">
+                    <label>License Key</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>100</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment>
+                        <![CDATA[
+                            <div style="padding:10px; background-color:#fff; border:1px solid #ddd; margin-bottom:7px;">
+                                <p>Please go to <a href="http://www.lexelpaf.co.uk/" target="_blank">www.lexelpaf.co.uk</a> and register to use the Lexel Address Service.  Once you have registered you will be given a username, password and license key which you must enter below.</p>
+                                <p>If you require any assistance please email <a href="mailto:helpdesk@lexel.co.uk">helpdesk@lexel.co.uk</a>.</p>
+                            </div>
+                        ]]>
+                    </comment>
+                    
+                    <fields>
+                        <username translate="label">
+                            <label>Username</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </username>
+                        <password translate="label">
+                            <label>Password</label>
+                            <frontend_type>password</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </password>
+                        <license_key translate="label">
+                            <label>License Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </license_key>
+                    </fields>
+                </license>
+            </groups>
+        </addressfinder>
+    </sections>
+</config>
