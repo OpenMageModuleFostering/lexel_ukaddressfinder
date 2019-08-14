@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Lexel_UkAddressFinder</name>
-    <version>0.2.1</version>
+    <version>0.3.0</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License v3.0 (OSL-3.0)</license>
     <channel>community</channel>
@@ -27,11 +27,11 @@ All you need to do is install the extension and then go to System -&gt; Configur
 The extension is free, however credits are not free and these need to be purchased through the Lexel website.&#xD;
 &#xD;
 Please note we are unable to help with custom theme support.</description>
-    <notes>Correction of minor typo.</notes>
+    <notes>Add compatibility for One Step Checkout (http://www.magentocommerce.com/magento-connect/one-step-checkout-v4.html).</notes>
     <authors><author><name>Lexel Software</name><user>lexel_uk</user><email>helpdesk@lexel.co.uk</email></author><author><name>Zodiac Media</name><user>zodiac_media</user><email>info@zodiacmedia.co.uk</email></author></authors>
-    <date>2013-10-16</date>
-    <time>08:03:02</time>
-    <contents><target name="magecommunity"><dir name="Lexel"><dir name="UkAddressFinder"><dir name="Helper"><file name="Data.php" hash="0af50634eb3c8f98d33d6a99a7838e35"/></dir><dir name="controllers"><file name="IndexController.php" hash="a371df2d3503377d2f52f1ee39f26dc1"/></dir><dir name="etc"><file name="config.xml" hash="f827020f3c358ec5264f24c906a76d31"/><file name="system.xml" hash="eaa085b4e0b606955a7e9a2934452261"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="addressfinder.xml" hash="8bd3513d5687823a670ab432274494bc"/></dir><dir name="template"><dir name="addressfinder"><file name="billing.phtml" hash="40c71cf08b16f61194a643aee7c82b41"/><file name="shipping.phtml" hash="71f27c04e9440c75a05a2ec58097f484"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Lexel_UkAddressFinder.xml" hash="9bbea2ea3a3f53770dcf3d4c15cfead6"/></dir></target></contents>
+    <date>2013-11-13</date>
+    <time>11:28:28</time>
+    <contents><target name="magecommunity"><dir name="Lexel"><dir name="UkAddressFinder"><dir name="Helper"><file name="Data.php" hash="0af50634eb3c8f98d33d6a99a7838e35"/></dir><dir name="controllers"><file name="IndexController.php" hash="9b094b1ef16a51981878c1c85016d31c"/></dir><dir name="etc"><file name="config.xml" hash="90d879c4fb343ea3e72e38ea289146aa"/><file name="system.xml" hash="eaa085b4e0b606955a7e9a2934452261"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="addressfinder.xml" hash="2389ccfacfa3cc1b7ab6d9228b0fbfd7"/></dir><dir name="template"><dir name="addressfinder"><file name="lookup_onepage.phtml" hash="38b02bf4280e134607a953c3f7134b34"/><file name="lookup_onestepcheckout.phtml" hash="aa53164b690248967430d15c9c3a38e4"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Lexel_UkAddressFinder.xml" hash="9bbea2ea3a3f53770dcf3d4c15cfead6"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="lexel"><dir name="addressfinder"><file name="onepage.css" hash="b0e2949622f0cc137c35105f92571505"/><file name="onestepcheckout.css" hash="523f7cc82baf842c6c9fe8889677be33"/></dir></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

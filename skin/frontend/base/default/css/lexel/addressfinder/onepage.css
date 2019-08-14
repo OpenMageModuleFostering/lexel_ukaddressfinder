@@ -1,0 +1,22 @@
+﻿.addressFinder .postcode {
+    padding-bottom: 8px;
+}
+.addressFinder label {
+    float: left;
+    display: none;
+}
+.addressFinder .input-box {
+    clear: left;
+    float: left;
+}
+.addressFinder button {
+    float: left;
+    padding-left: 13px;
+}
+.addressFinder .addressList .input-box select {
+    width: 260px;
+    margin-bottom: 8px;
+}
+.addressFinder .addressList p {
+    padding-bottom: 8px;
+}
