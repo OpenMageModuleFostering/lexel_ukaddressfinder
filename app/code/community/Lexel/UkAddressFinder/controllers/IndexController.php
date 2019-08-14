@@ -22,9 +22,9 @@ class Lexel_UkAddressFinder_IndexController extends Mage_Core_Controller_Front_A
     public function billingaddresslistfinderAction() 
     {
 		$postCode = $this->getRequest()->getPost('postcode'); 
-		$userName = Mage::getStoreConfig('addressfinder/general/username');  // get username from backend system configuration
-		$password = Mage::getStoreConfig('addressfinder/general/password');  // get password from backend system configuration
-		$licenseKey = Mage::getStoreConfig('addressfinder/general/license_key');  // get license key from backend system configuration
+		$userName = Mage::getStoreConfig('addressfinder/license/username');  // get username from backend system configuration
+		$password = Mage::getStoreConfig('addressfinder/license/password');  // get password from backend system configuration
+		$licenseKey = Mage::getStoreConfig('addressfinder/license/license_key');  // get license key from backend system configuration
 		
 		/* call to lexel PAF API via curl */
 		
@@ -54,9 +54,9 @@ class Lexel_UkAddressFinder_IndexController extends Mage_Core_Controller_Front_A
 	public function billingexactaddressfinderAction() 
     {
 		$addressId = $this->getRequest()->getPost('addressid'); 
-		$userName = Mage::getStoreConfig('addressfinder/general/username');  // get username from backend system configuration
-		$password = Mage::getStoreConfig('addressfinder/general/password');  // get password from backend system configuration
-		$licenseKey = Mage::getStoreConfig('addressfinder/general/license_key');  // get license key from backend system configuration
+		$userName = Mage::getStoreConfig('addressfinder/license/username');  // get username from backend system configuration
+		$password = Mage::getStoreConfig('addressfinder/license/password');  // get password from backend system configuration
+		$licenseKey = Mage::getStoreConfig('addressfinder/license/license_key');  // get license key from backend system configuration
 		
 		/* call to lexel PAF API via curl */
 		
@@ -93,9 +93,9 @@ class Lexel_UkAddressFinder_IndexController extends Mage_Core_Controller_Front_A
 	public function shippingaddresslistfinderAction() 
     {
 		$postCode = $this->getRequest()->getPost('postcode'); 
-		$userName = Mage::getStoreConfig('addressfinder/general/username');  // get username from backend system configuration
-		$password = Mage::getStoreConfig('addressfinder/general/password');  // get password from backend system configuration
-		$licenseKey = Mage::getStoreConfig('addressfinder/general/license_key');  // get license key from backend system configuration
+		$userName = Mage::getStoreConfig('addressfinder/license/username');  // get username from backend system configuration
+		$password = Mage::getStoreConfig('addressfinder/license/password');  // get password from backend system configuration
+		$licenseKey = Mage::getStoreConfig('addressfinder/license/license_key');  // get license key from backend system configuration
 		
 		/* call to lexel PAF API via curl */
 		
@@ -125,9 +125,9 @@ class Lexel_UkAddressFinder_IndexController extends Mage_Core_Controller_Front_A
 	public function shippingexactaddressfinderAction() 
     {
 		$addressId = $this->getRequest()->getPost('addressid'); 
-		$userName = Mage::getStoreConfig('addressfinder/general/username');  // get username from backend system configuration
-		$password = Mage::getStoreConfig('addressfinder/general/password');  // get password from backend system configuration
-		$licenseKey = Mage::getStoreConfig('addressfinder/general/license_key');  // get license key from backend system configuration
+		$userName = Mage::getStoreConfig('addressfinder/license/username');  // get username from backend system configuration
+		$password = Mage::getStoreConfig('addressfinder/license/password');  // get password from backend system configuration
+		$licenseKey = Mage::getStoreConfig('addressfinder/license/license_key');  // get license key from backend system configuration
 		
 		/* call to lexel PAF API via curl */
 		
