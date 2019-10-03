@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Lexel_UkAddressFinder",
+    "name": "OpenMageModuleFostering\/Lexel_UkAddressFinder",
     "type": "magento-module",
     "license": "Open-Software-License-v3.0-(OSL-3.0)",
     "homepage": "",
     "description": "UK Address Finder - Increase conversions and reduce customer keystrokes by up to 80%. ",
     "authors": [
-    {
-        "name": "Lexel Software",
-        "email": "helpdesk@lexel.co.uk"
-    }
-],
+        {
+            "name": "Lexel Software",
+            "email": "helpdesk@lexel.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
